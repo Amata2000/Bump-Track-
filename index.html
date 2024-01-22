@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bump Track - Pregnancy App</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Add a link for FontAwesome icons (you may need to include the appropriate version) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+  <div class="background"></div>
+
+  <header>
+    <h1>Bump Track</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#community">Community</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="calculator">
+      <h2>Due Date Calculator</h2>
+      <div class="calc-method">
+        <input type="radio" id="lastPeriodMethod" name="calculationMethod" checked>
+        <label for="lastPeriodMethod">Last Period</label>
+        <input type="radio" id="ultrasoundMethod" name="calculationMethod">
+        <label for="ultrasoundMethod">Ultrasound</label>
+      </div>
+      <label for="selectedDate">Selected Date:</label>
+      <input type="date" id="selectedDate" name="selectedDate" required>
+      <button onclick="calculateDueDate()">Calculate Due Date</button>
+      <p id="result"></p>
+    </section>
+  </main>
+
+  <section id="about">
+    <div class="about-container">
+      <h2>About Us</h2>
+      <p>Welcome to Bump Track, a dedicated space for expectant mothers. In this section, we aim to empower and support you throughout your pregnancy journey. From expert advice to a community of like-minded individuals, we're here to enhance your experience and provide the information you need as you embark on this incredible chapter of motherhood.</p>
+    </div>
+  </section>
+  
+  <p>Explore helpful tips for your pregnancy journey on <a href="https://www.brides.com/story/websites-every-pregnant-woman-should-know-about" target="_blank">Brides.com - Websites Every Pregnant Woman Should Know About</a>.</p>
+
+  <section id="community">
+    <h2>Community</h2>
+    <!-- Add community-related content or forum if desired -->
+    
+    
+  <div id="reasonsToJoin">
+    <h3>Why Join Bump Track Community?</h3>
+    <ul>
+      <li>Connect with other expectant mothers for mutual support.</li>
+      <li>Access expert advice and valuable pregnancy information.</li>
+      <li>Share your experiences and learn from others.</li>
+      <li>Participate in discussions and community events.</li>
+      <li>Stay informed about the latest developments in pregnancy and motherhood.</li>
+    </ul>
+
+    <p>Ready to join us? <a href="#signup">Sign up</a> or <a href="#login">Log in</a> now!</p>
+  </div>
+
+    
+    
+    
+  <div id="credits">
+    <h3>Credits</h3>
+    <p>Web Developer: Amata Victor</p>
+    <p>Supervisor: Dr. Edwards. E. Oghenevo</p>
+    <p>Faculty of Science, Department of Computer Science</p>
+  </div>
+</section>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- Contact Us Section -->
+<section id="contact">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <p>Connect with us on social media:</p>
+    <ul class="social-links">
+      <li><a href="https://www.facebook.com/Bump_Track" target="_blank"><i class="fab fa-facebook"></i> Bump Track</a></li>
+      <li><a href="https://twitter.com/Bump_Track" target="_blank"><i class="fab fa-twitter"></i> @Bump_Track</a></li>
+      <li><a href="https://www.tiktok.com/@Bump_Track" target="_blank"><i class="fab fa-tiktok"></i> Bump_Track</a></li>
+    </ul>
+  </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bump Track - Talk to a Doctor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="background"></div>
+
+  <header>
+    <h1>Bump Track</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#doctor">Talk to a Doctor</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Talk to a Doctor Section -->
+    <section id="doctor">
+      <h2>Talk to a Doctor</h2>
+      <p>Select your location to find nearby hospitals:</p>
+      <select id="locationSelector">
+        <option value="hospital1">Hospital 1</option>
+        <option value="hospital2">Hospital 2</option>
+        <option value="hospital3">Hospital 3</option>
+        <option value="hospital4">Hospital 4</option>
+        <option value="hospital5">Hospital 5</option>
+      </select>
+
+      <div id="hospitalList">
+        <!-- Hospital details will be displayed here dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
